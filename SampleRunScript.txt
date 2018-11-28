@@ -1,0 +1,49 @@
+Script started on Wed 17 Oct 2018 03:01:43 PM PDT
+]0;taylorwong@lh-cslab-013:~/comp380/proj1/comp380proj1[?1034h[taylorwong@lh-cslab-013 comp380proj1]$ javac[KP[K Perceptron.[K
+
+Welcome to our first neural network - A Perceptron Net!
+Enter 1 to train using a training data file, enter 2 to train using a trained weight settings data file.
+1
+Enter the training data file name:
+Sample.txt
+Enter 0 to initialize weights to 0, enter 1 to initialize weights to random values between -0.5 and 0.5:
+0
+Enter the maximum number of training epochs:
+10
+Enter a file name to save the trained weight settings:
+weights
+Enter the learning rate alpha from 0 to 1 but not including 0:
+0.25
+Enter the threshold theta:
+0.8
+Enter the threshold to be used for measuring weight changes:
+0.001
+Training converged after 5 epochs.
+printed weights file successfully
+Enter 1 to test/deploy using a testing/deploying data file, enter 2 to quit:
+1
+Enter the testing/deploying data file name:
+Sample.txt
+Enter a file name to save the testing/deploying results:
+results
+15/21 samples classified correctly
+
+Welcome to our first neural network - A Perceptron Net!
+Enter 1 to train using a training data file, enter 2 to train using a trained weight settings data file.
+2
+Enter the trained weights settings input data file name:
+weg ights
+Enter 1 to test/deploy using a testing/deploying data file, enter 2 to quit:
+1
+Enter the testing/deploying data file name:
+Sample.txt
+Enter a file name to save the testing/deploying results:
+results2
+15/21 samples classified correctly
+
+Welcome to our first neural network - A Perceptron Net!
+Enter 1 to train using a training data file, enter 2 to train using a trained weight settings data file.
+^C]0;taylorwong@lh-cslab-013:~/comp380/proj1/comp380proj1[taylorwong@lh-cslab-013 comp380proj1]$ exit script[K[K[K[K[K[K
+exit
+
+Script done on Wed 17 Oct 2018 03:05:32 PM PDT
